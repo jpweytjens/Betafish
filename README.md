@@ -10,7 +10,7 @@ A beta build is the same app as Barberfish, so installing one replaces your stab
 
 ## Install
 
-1. On your phone, download the latest barberfish.apk from the [releases](https://github.com/jpweytjens/betafish/releases/latest).
+1. On your phone, download the latest barberfish.apk from the [releases](https://github.com/jpweytjens/Betafish/releases/latest).
 2. Sideload it:
    * Karoo 3: share the downloaded APK to the Hammerhead companion app, following [Hammerhead's sideloading instructions](https://support.hammerhead.io/hc/en-us/articles/31576497036827-Karoo-Extension-Sideloading).
    * Karoo 2: install from a computer following [DC Rainmaker's instructions](https://www.dcrainmaker.com/2021/02/how-to-sideload-android-apps-on-your-hammerhead-karoo-1-karoo-2.html).
@@ -24,4 +24,4 @@ Android refuses to replace an app with an older version, so the current stable r
 
 ## Feedback
 
-Found something broken in a beta? [Open an issue](https://github.com/jpweytjens/betafish/issues) and mention the beta version and your Karoo model. Issues about the stable release belong on the [main repo](https://github.com/jpweytjens/barberfish/issues).
+Found something broken in a beta? [Open an issue](https://github.com/jpweytjens/Betafish/issues) and mention the beta version and your Karoo model. Issues about the stable release belong on the [main repo](https://github.com/jpweytjens/barberfish/issues).
