@@ -1,0 +1,7 @@
+# Claude (local only)
+.claude/
+CLAUDE.md
+docs/superpowers/
+
+# APKs are release assets, never committed
+*.apk
