@@ -1,0 +1,7 @@
+contact_links:
+  - name: Feature request
+    url: https://github.com/jpweytjens/barberfish/issues/new?template=feature_request.yml
+    about: New fields and improvements are tracked on the main Barberfish repo.
+  - name: Stable release bug
+    url: https://github.com/jpweytjens/barberfish/issues/new?template=bug_report.yml
+    about: Problems with a stable release belong on the main Barberfish repo.
