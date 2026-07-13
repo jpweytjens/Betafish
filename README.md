@@ -21,7 +21,7 @@ You only sideload once. A beta is the same app as Barberfish, so it replaces you
 
 ## What's in a beta
 
-Each [release](https://github.com/jpweytjens/Betafish/releases) lists what changed, and the Karoo shows the same notes with the update. What has shipped stable is tracked in the main repo's [changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
+The [latest release](https://github.com/jpweytjens/Betafish/releases/latest) carries the full changelog for the version under test; the Karoo shows a short version of it with each update. What has shipped stable is tracked in the main repo's [changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
 ## Going back to stable
 
