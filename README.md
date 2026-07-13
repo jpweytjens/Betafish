@@ -4,7 +4,7 @@
 [![Download](https://img.shields.io/badge/download-barberfish.apk-orange?logo=android&logoColor=white)](https://github.com/jpweytjens/Betafish/releases/latest/download/barberfish.apk)
 [![Stable](https://img.shields.io/github/v/release/jpweytjens/barberfish?label=stable&color=2ea44f)](https://github.com/jpweytjens/barberfish/releases/latest)
 
-<img src="ic_extension.png" align="left" width="120" alt="Betafish">
+<img src="betafish.png" align="left" width="120" alt="Betafish">
 
 The beta channel for [Barberfish](https://github.com/jpweytjens/barberfish), data field enhancements for the Hammerhead Karoo.
 
