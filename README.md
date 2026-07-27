@@ -30,7 +30,7 @@ Android refuses to replace an app with an older version, so the current stable r
 
 ## What's in a beta
 
-The [latest release](https://github.com/jpweytjens/Betafish/releases/latest) carries the full changelog for the version under test; the Karoo shows a short version of it with each update. What has shipped stable is tracked in the main repo's [changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
+The [changelog](CHANGELOG.md) covers the whole beta cycle: what 4.0 adds over the stable release, and what each beta changed since the one before it. A release page carries only its own section, and the Karoo shows a short version of that with each update. What has shipped stable is tracked in the main repo's [changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
 ## Feedback
 
