@@ -4,6 +4,28 @@ Betas of the 4.0 cycle. Each section lists what changed since the beta before it
 4.0.0-beta1 lists everything 4.0 adds over the 3.3.1 stable release. What has shipped
 stable is tracked in the [main repo's changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
+## 4.0.0-beta3
+
+Grade colors:
+- The Barberfish palette, the default, now colors descents: three teal-to-slate bands at -2, -6 and -10, mirroring the climb side
+- Its flat band is now a green-grey that stands apart from the map, instead of a light grey that read as a road edge
+- The new colors apply everywhere grades are colored: the Grade field, the HUD grade column, the elevation profile, and the grade map
+
+Emphasis:
+- The band count pickers are replaced by handles on a to-scale palette bar: each handle is the grade where color starts, climbs and descents set separately, the end of the bar is off
+- The Grade Map card carries the same bar, showing the profile's handles when Tuning is Sync and its own climb handle when Independent
+
+Grade map (beta):
+- Descents and flat road are now painted along with the climbs, chevrons included, each in its own band color
+- Simplification follows the zoom: the line coarsens as you zoom out and the detail returns as you zoom in
+- The card's preview now shows an up-and-over pass
+
+Config screen:
+- The Global section is split into Palettes and Time, and the sections are reordered
+
+Fixes:
+- Dead-flat road at exactly 0% is colored again when Emphasis is off, instead of leaving black gaps in the profile and grey ones on the map
+
 ## 4.0.0-beta2
 
 Grade map (beta):
