@@ -1,8 +1,8 @@
 # Changelog
 
-Betas of the 4.0 cycle. Each section lists what changed since the beta before it;
-4.0.0-beta1 lists everything 4.0 adds over the 3.3.1 stable release. What has shipped
-stable is tracked in the [main repo's changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
+Each beta's section lists what changed since the beta before it; a cycle's first beta
+lists everything since the latest stable release. What has shipped stable is tracked in
+the [main repo's changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
 ## 4.0.0-beta3
 
