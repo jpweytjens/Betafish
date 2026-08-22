@@ -4,6 +4,18 @@ Each beta's section lists what changed since the beta before it; a cycle's first
 lists everything since the latest stable release. What has shipped stable is tracked in
 the [main repo's changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
+## 4.0.0-beta4
+
+Emphasis:
+- The Barberfish flat band can now be colored too: drag the climb handle past it to -2, or the descent handle to +2, and the flat band joins that side's coloring
+- Handles can meet but not cross; wherever they meet, the whole bar is colored
+- A press grabs the nearest handle, so a handle parked across the middle stays easy to pick up
+
+Fixes:
+- The profile's climb shading holds steady while off route and snaps back when you rejoin, instead of shifting during a reroute
+- The grade map clears symbols left over from a mid-ride restart, instead of stale chevrons staying painted until the ride ends
+- Grade map colors and chevrons stay lined up with the road on long routes, instead of drifting further the farther you ride
+
 ## 4.0.0-beta3
 
 Grade colors:
