@@ -4,6 +4,36 @@ Each beta's section lists what changed since the beta before it; a cycle's first
 lists everything since the latest stable release. What has shipped stable is tracked in
 the [main repo's changelog](https://github.com/jpweytjens/barberfish/blob/master/CHANGELOG.md).
 
+## 4.0.0-beta5
+
+Grade map (beta):
+- The route is now painted as one wide band inside a black casing, end to end, in place of the native route line. Stretches outside your emphasis handles draw in a neutral grey at the same width, so the band never changes width along the route
+- Chevrons are drawn in the palette's own yellow with a black outline and carry direction only; the grade stays in the band colour
+- Chevrons you have ridden past disappear behind you, so what stays coloured is the road ahead
+- Roads the route covers twice, an out-and-back or laps, are painted per pass: the first pass sits on top, and once you have ridden it the return leg's colours and chevrons show through
+- Off route, the path back to the route is drawn as a red band with red chevrons
+- The separate line and chevron toggles are gone; the grade map is on or off
+- Chevron Spacing chooses where chevrons bunch: on the steepest ramps, where the gradient shifts, or a balance of the two
+- The card's preview draws the band as the device does, casing and chevrons included, and shows which bands the map paints
+
+Palettes:
+- New Surgeonfish grade palette: the Karoo climb ramp respaced in even steps with a muted flat band, so colour builds only as the road tilts, and blue descents deepening to navy at -2, -6 and -10
+- Surgeonfish also comes as a power and HR zone palette, sliced the way Karoo's is
+- Neighbouring Surgeonfish bands are easier to tell apart in the elevation profile
+
+HUD:
+- A column whose sensor is not paired is dropped and the remaining columns share its width. A sensor still searching keeps its column, so the layout does not jump mid-ride
+- The Header toggle on the HUD profile card is gone; it did nothing
+
+Fixes:
+- Off route, the profile now holds your last on-route position instead of jumping back to the start of the route, and its climb shading stays put when a reroute lands mid-climb
+- The grade map's band now meets the route start and finish cleanly, instead of leaving a sliver of native line before it and a bare black tail after it
+- Removing a route or arriving at the destination no longer hides every chevron on the next ride of the same route
+- The grade map no longer redraws when the climb list shrinks during a reroute
+- Emphasis handles snap into range when you switch palettes, instead of keeping a position the new palette does not have
+
+Smaller touch-ups: the Emphasis help text now says that grades between the handles draw only the outline, no fill.
+
 ## 4.0.0-beta4
 
 Emphasis:
